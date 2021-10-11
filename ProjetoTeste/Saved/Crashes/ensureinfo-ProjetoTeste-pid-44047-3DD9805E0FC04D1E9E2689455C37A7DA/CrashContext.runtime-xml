@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>DDB9CD1546E5400A8792FD3F5015F5D3</ExecutionGuid>
+		<CrashGUID>UE4CC-Linux-DEA66775D9954B4DA9E47F36D8A2A24B_0001</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 182] Stack: 0x00007ff6abbacf23 libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:182] 0x00007ff6abc38f86 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::SelectAndInitDevice() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:551] 0x00007ff6abc352b3 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::InitInstance() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:694] 0x00007ff6abc34ec8 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::Init() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:241] 0x00007ff72f79a47d libUE4Editor-RHI.so!RHIInit(bool) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:228] 0x000000000024e593 UE4Editor!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2555] 0x00000000002454bc UE4Editor!GuardedMain(char16_t const*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:127] 0x00007ff72c4fc056 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264] 0x00007ff72c32bcb2 libc.so.6!__libc_start_main(+0xf1) 0x000000000022e729 UE4Editor!_start()</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>44047</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>true</IsSourceDistribution>
+		<GameName>UE4-ProjetoTeste</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.26-CL-0-Linux-Development</Symbols>
+		<PlatformName>Linux</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.26.2-0+++UE4+Release-4.26</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>pt_BR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.26-CL-0</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/cleitonlopesbraga/UnrealEngine/Engine/Binaries/Linux/</BaseDir>
+		<RootDir>/home/cleitonlopesbraga/UnrealEngine/</RootDir>
+		<MachineId>4F788EAF39C2542869E86EAA5F4ED178-000003E8</MachineId>
+		<LoginId>4f788eaf39c2542869e86eaa5f4ed178-000003e8</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>16610537472</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:288]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:900]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:428]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:494]
+libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*)::$_211::operator()() const [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:182]
+libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:182]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::SelectAndInitDevice() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:551]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::InitInstance() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:694]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::Init() [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:241]
+libUE4Editor-RHI.so!RHIInit(bool) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:228]
+UE4Editor!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2555]
+UE4Editor!GuardedMain(char16_t const*) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:127]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/cleitonlopesbraga/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!__libc_start_main(+0xf1)
+UE4Editor!_start()
+</CallStack>
+		<PCallStack>libUE4Editor-Core 0x00007ff734a8d000 + ac1ee2 libUE4Editor-Core 0x00007ff734a8d000 + 5a744e libUE4Editor-Core 0x00007ff734a8d000 + abc2d3 libUE4Editor-Core 0x00007ff734a8d000 + ad89de libUE4Editor-Core 0x00007ff734a8d000 + 780559 libUE4Editor-Core 0x00007ff734a8d000 + 780eff libUE4Editor-VulkanRHI 0x00007ff6aba95000 + 308c8e libUE4Editor-VulkanRHI 0x00007ff6aba95000 + 117f23 libUE4Editor-VulkanRHI 0x00007ff6aba95000 + 1a3f86 libUE4Editor-VulkanRHI 0x00007ff6aba95000 + 1a02b3 libUE4Editor-VulkanRHI 0x00007ff6aba95000 + 19fec8 libUE4Editor-RHI 0x00007ff72f727000 + 7347d UE4Editor 0x0000000000200000 + 4e593 UE4Editor 0x0000000000200000 + 454bc libUE4Editor-UnixCommonStartup 0x00007ff72c4f8000 + 4056 libc.so 0x00007ff72c303000 + 28cb2 UE4Editor 0x0000000000200000 + 2e729</PCallStack>
+		<PCallStackHash>384F113E738DCC83B55140359CD5CD1DCCC550B3</PCallStackHash>
+		<TimeOfCrash>637549132089900000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [GenericOSVersionLabel GenericOSSubVersionLabel 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>5</CrashSignal>
+		<CrashSignalName>Trace/breakpoint trap</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData />
+	<GameData />
+</FGenericCrashContext>
